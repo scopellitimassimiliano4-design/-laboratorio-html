@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>La mia scheda personale</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La mia scheda personale</title>
   <!-- Collegamento al foglio di stile esterno -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Intestazione della pagina -->
-<header>
-<h1>Mi presento!</h1>
-<p>La mia prima pagina con HTML e CSS</p>
-</header>
-<!-- Contenuto principale -->
-<main>
-<article class="scheda">
-<h2>Federico Scopelliti</h2>
-<p class="descrizione">
-Ciao! Sono Federico, frequento un corso di informatica
-e sto imparando a creare pagine web.
-</p>
-<h3>I miei interessi</h3>
-<ul>
-<li>Programmazione</li>
-<li>Musica</li>
-<li>Sport</li>
-</ul>
-<p>
-Il mio obiettivo è
-<strong>creare il mio primo sito web</strong>.
-</p>
-<a class="pulsante" href="mailto:marco@example.com">
-Scrivimi
-</a>
-</article>
-</main>
-<!-- Piè di pagina -->
-<footer>
-<p>Esercitazione di laboratorio — HTML e CSS</p>
-</footer>
+
+  <!-- Intestazione della pagina -->
+  <header>
+    <h1>Mi presento!</h1>
+    <p>La mia prima pagina con HTML e CSS</p>
+  </header>
+
+  <!-- Contenuto principale -->
+  <main>
+    <article class="scheda">
+      <h2>Federico Scopelliti</h2>
+      <p class="descrizione">
+        Ciao! Sono Federico, frequento un corso di informatica
+        e sto imparando a creare pagine web.
+      </p>
+
+      <!-- 1. UL: Lista non ordinata (Unordered List) -->
+      <h3>I miei interessi (UL)</h3>
+      <ul>
+        <li>Programmazione</li>
+        <li>Musica</li>
+        <li>Sport</li>
+      </ul>
+
+      <!-- 2. OL: Lista ordinata (Ordered List) -->
+      <h3>La mia routine di studio (OL)</h3>
+      <ol>
+        <li>Leggere la teoria</li>
+        <li>Scrivere il codice HTML</li>
+        <li>Applicare lo stile CSS</li>
+        <li>Testare la pagina nel browser</li>
+      </ol>
+
+      <!-- 3. DL: Lista di definizioni (Definition List) -->
+      <h3>Glossario dei linguaggi (DL)</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Linguaggio di markup per strutturare i contenuti web.</dd>
+        
+        <dt>CSS</dt>
+        <dd>Linguaggio di stile per definire la grafica e il layout.</dd>
+        
+        <dt>JavaScript</dt>
+        <dd>Linguaggio di programmazione per rendere la pagina interattiva.</dd>
+      </dl>
+
+      <p>
+        Il mio obiettivo è
+        <strong>creare il mio primo sito web</strong>.
+      </p>
+
+      <a class="pulsante" href="mailto:marco@example.com">
+        Scrivimi
+      </a>
+    </article>
+  </main>
+
+  <!-- Piè di pagina -->
+  <footer>
+    <p>Esercitazione di laboratorio — HTML e CSS</p>
+  </footer>
+
 </body>
 </html>
